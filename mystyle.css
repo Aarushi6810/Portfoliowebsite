@@ -1,0 +1,92 @@
+body {
+    text-align: center;
+    margin: 100px;
+    padding-top: 500px;
+
+
+}
+
+.Image1 {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 650px;
+    color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    opacity: 0.83;
+    background: linear-gradient(#66e875 0%, #349eeb 100%);
+    display: table;
+    width: 100%;
+    z-index: 9;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu
+{
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links
+{
+    float: left;
+    color: #133469;
+    padding-top: 5px; 
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover
+{
+    background-color: lightpink;
+
+}
+
+h1
+{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+h2
+{
+    font-family: 'Nanum Myeongjo', serif;
+}
